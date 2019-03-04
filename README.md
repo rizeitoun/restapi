@@ -3,8 +3,8 @@
 
 #### Implementation code is RestApi.cs
 #### Example tests from exercism:
-,,,
-    public void Lender_has_negative_balance()
+```
+public void Lender_has_negative_balance()
     {
         var url = "/iou";
         var payload = "{\"lender\":\"Bob\",\"borrower\":\"Adam\",\"amount\":3.0}";
@@ -14,4 +14,4 @@
         var expected = "[{\"name\":\"Adam\",\"owes\":{\"Bob\":3.0},\"owed_by\":{},\"balance\":-3.0},{\"name\":\"Bob\",\"owes\":{\"Chuck\":3.0},\"owed_by\":{\"Adam\":3.0},\"balance\":0.0}]";
         Assert.Equal(expected, actual);
     }
-,,,
+```
