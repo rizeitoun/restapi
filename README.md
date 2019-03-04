@@ -2,7 +2,7 @@
 #### This is a rest API exercise from the C# track of exercism.io.  Goal was to make a cs script to track transactions between users through JSON I/O.
 
 #### Implementation code is RestApi.cs
-#### Example tests from exercism:
+#### Example tests from exercism where Actual is what code outputs and Expected is the expected answer:
 ```
 public void Lender_has_negative_balance()
     {
